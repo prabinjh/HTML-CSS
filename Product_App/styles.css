@@ -8,6 +8,13 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.content {
+    flex: 1; /* Pushes the footer down */
 }
 
 header {
@@ -55,6 +62,7 @@ button:hover {
 footer {
     background-color: #333;
     color: white;
+    text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: auto;
 }
